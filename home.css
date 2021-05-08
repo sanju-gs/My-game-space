@@ -1,0 +1,21 @@
+body{
+    background-color: #ede0d4;
+}
+h2{
+    color: #03045e;
+    font-size: 35px;
+}
+#details{
+    font-size: 18px;
+    font-weight: 600;
+}
+h4{
+    color: #03045e;
+}
+#submit{
+    background-color: #023e8a;
+    color: #90e0ef;
+}
+#sup{
+    color: red;
+}
