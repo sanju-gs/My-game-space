@@ -1,0 +1,39 @@
+body{
+    background-color: #6930c3;
+}
+h1{
+    text-align: center;
+    color: #89c2d9;
+    text-decoration: underline;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+     }
+.line1{
+    background-color:#5e60ce ;
+}
+h2{
+    text-align: justify;
+}
+.search{
+    background-color: #ef476f;
+    color: #f7ede2;
+}
+.text_box{
+    background-color: #fec89a;
+}
+.line2{
+    background-color: #5e60ce;
+}
+h4{
+    color: indigo;
+}
+span a {
+    text-decoration: none;
+    color: #f6bd60;
+    font-weight: bold;
+}
+.table{
+    color: #a5a403;
+}
+
