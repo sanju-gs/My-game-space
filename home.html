@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <div>
+        <h2>Register</h1>
+    </div>
+    <section id="details">
+        <p>
+            Enter your details
+        </p>
+    </section>
+    <form action="track/">
+        <div>
+            <p>
+                <label for="username"> Enter your username <sup id="sup">*</sup></label>
+                <input type="text" placeholder="username" id="username" required minlength="3" maxlength="10">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="mail">Enter your email <sup id="sup">*</sup></label>
+                <input type="email" placeholder="email" name="mail" id="mail" required>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="password">Enter a password <sup id="sup">*</sup></label>
+                <input type="password" placeholder="password" id="password" required minlength="5" maxlength="20">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="pass">Confirm your password <sup id="sup">*</sup></label>
+                <input type="password" placeholder="password" id="pass" required>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="date">Enter your date of birth <sup id="sup">*</sup></label>
+                <input type="date" placeholder="D.O.B" id="date" required>
+            </p>
+            <p>
+            <div>
+                <h4>How many years have you been into gaming <sup id="sup">*</sup></h4>
+                <p>
+                    <label for="expl">Less than 1 Year </label>
+                    <input type="radio" name="exp" id="expl" value="Less 1 yr" required>
+                </p>
+                <p>
+                    <label for="expm">1 to 5 years</label>
+                    <input type="radio" name="exp" id="expm" value="1-5yr" required>
+                </p>
+                <p>
+                    <label for="expb">More than 5 years</label>
+                    <input type="radio" name="exp" id="expb" value="More 5yr" required>
+                </p>
+            </div>
+            </p>
+        </div>
+        <div>
+            <p>
+                <input type="checkbox" name="agree" id="agree" required>
+                <label for="agree">I agree to terms and condition</label>
+            <p><button type="" id="submit">Submit</button></p>
+            </p>
+        </div>
+    </form>
+</body>
+
+</html>
